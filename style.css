@@ -1,0 +1,145 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat (6,1fr);
+  grid-template-areas: 
+  "resume-title resume-title resume-title resume-title resume-title resume-title"
+  "profile profile profile-pic profile-pic contact contact"
+  "education education skills skills expertise expertise"
+  "experience experience experience experience experience experience"
+  "internship internship internship developer developer developer";
+  }
+  body {
+    margin: 2% auto;
+    height: 100vh;
+    width: 80vh;
+    border: 5px black;
+    font-family: 'montserrat',sans-serif;
+  }
+  p {font-size: smaller;}
+  
+  img {
+    height: 150px;
+    width: 150px;
+    margin-left: 60px;
+    border-radius: 50%;
+  }
+  
+.ex {
+    background-color: #c6d3ee;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+.profile-a {
+  background-color: #c6d3ee;
+  margin-left: 30px;
+}
+  .contact-a {
+    background-color: #c6d3ee;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .education-ed {
+    background-color: #c6d3ee;
+    margin-left: 30px;
+  }
+  .experience-a {
+    background-color: #c6d3ee;
+    
+  }
+  
+  .title {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .resume-title {
+    background-color: #c6d3ee;
+    grid-area: resume-title;
+    text-align: center;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    a:visited {
+      color: darkblue;}
+   
+      a:hover {
+        color:purple
+}
+h1 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'monserrat', sans-serif;
+  
+}
+.profesional {
+  background-color: white;
+}
+.profile {
+  grid-area: profile;
+  margin: auto;
+}
+#profile-pic {
+  grid-area: profile-pic;
+  height: 190px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 50pt;
+}
+.contact {
+  grid-area: contact;
+  margin-left: 30px;
+  }
+  .education {
+    grid-area: education;
+    margin: auto;
+  }
+  .skills {
+    background-color:  #c6d3ee;
+    grid-area: skills;
+    margin-left: 40px;
+  }
+  .expertise {
+    grid-area: expertise;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+  }
+  .internship {
+    grid-area: internship;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  .developer { 
+    grid-area: developer;
+}
+.experience {
+  grid-area: experience;
+}
+h3 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.listone {
+  list-style-type: none;
+  text-align: center;
+}
+.listtwo {
+  list-style-type: circle;
+}
+.skillset {
+  text-align: center;
+}
+hr {
+  height: 10px;
+  background-color: #c6d3ee;
+  border: none;
+}
